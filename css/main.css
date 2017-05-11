@@ -3,23 +3,26 @@ body{
   background-repeat: no-repeat;
 }
 
+.contenedoral{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content:center;
+  align-items:flex-end
 
+}
 .contenedordegato{
   display: flex;
   height: 300px;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
-.imagengato{
-  margin-top: 15%;
-  margin-left: 20%;
 
-
-}
 
 @media  (max-width: 660px) {
   body{
   background-image: url("../img/dawn.png");
+
   }
 }
 
@@ -39,6 +42,7 @@ body{
 @media  (max-width: 660px) {
   .contenedordegato{
   background-image: url("../img/kitten-large.png");
+
   }
 }
 
